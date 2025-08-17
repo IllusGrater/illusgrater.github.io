@@ -5,7 +5,8 @@
     "email": "Email",
     "twitter": "X",
     "github": "CSP File Releases",
-    "button": "English"
+    "button": "English",
+    "tutorials": "Tutorials"
   },
   "ja": {
     "title": "IllusGrater",
@@ -13,6 +14,7 @@
     "email": "メール",
     "twitter": "X",
     "github": "CSPファイル配布",
-    "button": "日本語"
+    "button": "日本語",
+    "tutorials": "チュートリアル"
   }
 }

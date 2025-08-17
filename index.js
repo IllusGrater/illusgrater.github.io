@@ -7,6 +7,7 @@ const emailLink = document.getElementById('email-link');
 const twitterLink = document.getElementById('twitter-link');
 const githubLink = document.getElementById('github-link');
 const languageButtonsContainer = document.getElementById('language-buttons');
+const tutorialsLink = document.getElementById('tutorials');
 
 // Fetch translations from JSON file
 fetch('/../translations.json')
@@ -43,5 +44,6 @@ function updateText() {
     emailLink.textContent = lang.email;
     twitterLink.textContent = lang.twitter;
     githubLink.textContent = lang.github;
+    tutorialsLink.textContent = lang.tutorials;
     document.documentElement.lang = currentLang;
 }
