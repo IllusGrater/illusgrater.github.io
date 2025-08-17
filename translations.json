@@ -1,0 +1,18 @@
+{
+  "en": {
+    "title": "IllusGrater",
+    "pixiv": "pixiv",
+    "email": "Email",
+    "twitter": "X",
+    "github": "CSP File Releases",
+    "button": "English"
+  },
+  "ja": {
+    "title": "IllusGrater",
+    "pixiv": "pixiv",
+    "email": "メール",
+    "twitter": "X",
+    "github": "CSPファイル配布",
+    "button": "日本語"
+  }
+}

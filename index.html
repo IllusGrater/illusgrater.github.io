@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Links</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f0f0f0;
+        }
+        .link-container {
+            text-align: center;
+        }
+        a {
+            display: block;
+            margin: 10px 0;
+            padding: 10px 20px;
+            text-decoration: none;
+            color: #ffffff;
+            background-color: #007bff;
+            border-radius: 5px;
+            width: 200px;
+            text-align: center;
+        }
+        a:hover {
+            background-color: #0056b3;
+        }
+        button {
+            margin: 5px;
+            padding: 10px 20px;
+            background-color: #28a745;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .language-buttons {
+            margin: 15px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="link-container">
+        <h1 id="title">IllusGrater</h1>
+        <a id="pixiv-link" href="https://www.pixiv.net/en/users/103977026" target="_blank">Pixiv</a>
+        <a id="email-link" href="mailto:illusgrater@gmail.com">Email</a>
+        <a id="twitter-link" href="https://x.com/IllusGrater" target="_blank">X</a>
+        <a id="github-link" href="https://github.com/IllusGrater/100BowlsOfCereal" target="_blank">CSP Releases</a>
+        <div class="language-buttons" id="language-buttons"></div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
