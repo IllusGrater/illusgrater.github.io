@@ -1,0 +1,56 @@
+@font-face {
+  font-family: WhirlyBirdieGX;
+  src: url(fonts/WhirlyBirdieGX.ttf);
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #eeeeee;
+}
+
+h1 {
+    color: #dd0e36;
+    font-family: WhirlyBirdieGX, Arial, sans-serif;
+    font-variation-settings: 'wght' 90, 'wdth' 150, 'ital' 0;
+    font-size: 5vw;
+    
+}
+
+.link-container {
+    text-align: center;
+}
+a {
+    display: block;
+    margin: 10px 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000000;
+
+    width: 200px;
+    text-align: center;
+}
+a:hover {
+    background-color: #dd0e36;
+    color: #ffffff;
+}
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    background-color: #dd0e36;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #ee0e36;
+}
+.language-buttons {
+    margin: 15px 0;
+}
+
