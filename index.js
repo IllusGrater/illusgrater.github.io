@@ -8,6 +8,7 @@ const twitterLink = document.getElementById('twitter-link');
 const githubLink = document.getElementById('github-link');
 const languageButtonsContainer = document.getElementById('language-buttons');
 const tutorialsLink = document.getElementById('tutorials');
+const playlistLink = document.getElementById('playlist');
 
 // Fetch translations from JSON file
 fetch('/../translations.json')
