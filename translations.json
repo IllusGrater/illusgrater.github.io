@@ -1,20 +1,24 @@
 {
   "en": {
     "title": "IllusGrater",
-    "pixiv": "pixiv",
-    "email": "Email",
-    "twitter": "X",
-    "github": "CSP File Releases",
     "button": "English",
-    "tutorials": "Tutorials"
+    "pixiv-link": "pixiv",
+    "email-link": "Email",
+    "twitter-link": "X",
+    "github-link": "CSP File Releases",
+    "tutorials-link": "Tutorials",
+    "spotify-link": "Spotify",
+    "marshmallow-link": "Marshmallow"
   },
   "ja": {
     "title": "IllusGrater",
-    "pixiv": "pixiv",
-    "email": "メール",
-    "twitter": "X",
-    "github": "CSPファイル配布",
     "button": "日本語",
-    "tutorials": "チュートリアル"
+    "pixiv-link": "pixiv",
+    "email-link": "メール",
+    "twitter-link": "X",
+    "github-link": "CSPファイル配布",
+    "tutorials-link": "チュートリアル",
+    "spotify-link": "Spotify",
+    "marshmallow-link": "マシュマロ"
   }
 }

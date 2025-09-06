@@ -1,5 +1,5 @@
 let translations = {};
-let currentLang = 'en';
+let currentLang = 'ja';
 
 const titleElement = document.getElementById('title');
 const pixivLink = document.getElementById('pixiv-link');
@@ -8,7 +8,6 @@ const twitterLink = document.getElementById('twitter-link');
 const githubLink = document.getElementById('github-link');
 const languageButtonsContainer = document.getElementById('language-buttons');
 const tutorialsLink = document.getElementById('tutorials');
-const playlistLink = document.getElementById('playlist');
 
 // Fetch translations from JSON file
 fetch('/../translations.json')
@@ -40,11 +39,20 @@ function createLanguageButtons() {
 function updateText() {
     if (!translations[currentLang]) return; // Guard against undefined language
     const lang = translations[currentLang];
+    var dynatextElements = document.getElementsByClassName('dynatext');
+    for (let i = 0; i < dynatextElements.length; i++) {
+        const element = dynatextElements[i];
+        //see if the json has a key that matches the id of the element
+        if (lang[element.id]) {
+            element.textContent = lang[element.id];
+        }
+    }
+    /*
     titleElement.textContent = lang.title;
     pixivLink.textContent = lang.pixiv;
     emailLink.textContent = lang.email;
     twitterLink.textContent = lang.twitter;
     githubLink.textContent = lang.github;
     tutorialsLink.textContent = lang.tutorials;
-    document.documentElement.lang = currentLang;
+    document.documentElement.lang = currentLang;*/
 }
